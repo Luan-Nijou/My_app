@@ -1,6 +1,7 @@
 import Cabeçalho from "./components/Cabeçalho";
 import Baixo from './components/Baixo.jsx'
 import Seção from './components/Seção.jsx'
+import style from './index.module.css'
 
 // App -> main -> index -> root
 export default function App(){
@@ -11,7 +12,7 @@ export default function App(){
     //Área de ação
     //fragment 
     <>
-      <div>
+      <div className={style.container}>
         {/* Comentário */}
 
         {/* Criar um cabeçalho com header , um h1 e 
