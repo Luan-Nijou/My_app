@@ -1,4 +1,4 @@
-export default function Seção(){
+export default function Conteudo(){
     return(
         <section>
           <div>
