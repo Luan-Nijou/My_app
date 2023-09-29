@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Rodape() {
   return (
     <>
@@ -5,7 +7,7 @@ export default function Rodape() {
         <div>
           <ul>
             <li>
-              <a href="#">GitHub</a>
+              <a><Link to="https://github.com/Luan-Nijou/My_app"> GitHub </Link></a>
             </li>
             <li>
               <a href="#">X</a>

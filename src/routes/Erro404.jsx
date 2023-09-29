@@ -1,7 +1,13 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function Erro404() {
+
+  document.title = "Erro404";
+  
   return (
-    <div>Erro404 - O QUE VC QUISER</div>
+    <div>
+      <h1> Erro404 </h1>
+      <p> <Link to="/">Voltar para HOME</Link></p>
+    </div>
   )
 }
