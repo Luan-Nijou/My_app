@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+import "./Rodape.scss"
 
 export default function Rodape() {
   return (
     <>
-      <footer>
+      <footer className="rodape">
         <div>
           <ul>
             <li>
-              <a><Link to="https://github.com/Luan-Nijou/My_app"> GitHub </Link></a>
+              <a href="#">GitHub</a>
             </li>
             <li>
               <a href="#">X</a>
