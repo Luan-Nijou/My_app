@@ -52,6 +52,11 @@ export default function Produtos() {
             </tbody>
             <tfoot>
               <tr>
+                <td>
+                 <Link to={"/adicionar/produtos"}>Adicionar</Link>
+                </td>              
+              </tr>
+              <tr>
                 <td colSpan={4}>PRODUTOS / Qtd = {listaProdutosAPI.length}</td>
               </tr>
             </tfoot>

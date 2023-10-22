@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./routes/Home.jsx";
 import Produtos from "./routes/Produtos.jsx";
 import EditarProdutos from "./routes/EditarProdutos.jsx";
+import AdicionarProduto from './routes/AddProduto.jsx';
 import Error404 from "./routes/Error404.jsx";
 
 const router = createBrowserRouter([
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
       {path:"/" , element:<Home/>},
       {path:"/produtos" , element:<Produtos/>},
       {path:"/editar/produtos/:id" , element:<EditarProdutos/>},
+      {path:"/adicionar/produtos" , element:<AdicionarProduto/>},
     ]}
 ]);
 

@@ -17,6 +17,12 @@
       "nome": "Impressora",
       "desc": "Brother HL-L2340DW",
       "valor": 129
+    },
+    {
+      "nome": "Carrinho",
+      "desc": "Hotwheels",
+      "valor": "9",
+      "id": 5
     }
   ]
 }
