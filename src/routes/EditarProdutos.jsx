@@ -38,7 +38,7 @@ export default function EditarProdutos() {
     })
     .then(() => {
       // Redirecionar para a página principal após a exclusão
-      history.push("/");
+      history("/");
     })
     .catch((error) => console.error(error));
   };
@@ -55,7 +55,7 @@ export default function EditarProdutos() {
     })
     .then(() => {
       // Redirecionar para a página de detalhes após a edição
-      history.push(`/produtos/${id}`);
+      history(`/produtos/${id}`);
     })
     .catch((error) => console.error(error));
   };
